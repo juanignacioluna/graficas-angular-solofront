@@ -19,16 +19,6 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {
 
-    $("#close").hide();
-    $("#login").hide();
-
-
-    if(data != ""){
-        $("#close").show();
-    }else{
-        $("#login").show();
-    }
-
   }
 
   cerrarSesion(event){
